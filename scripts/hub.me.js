@@ -111,9 +111,9 @@
                 var langA = a.language, 
                     langB = b.language;
 
-                if (langA < langB)
-                    return -1;
                 if (langA > langB)
+                    return -1;
+                if (langA < langB)
                     return 1;
 
             });
